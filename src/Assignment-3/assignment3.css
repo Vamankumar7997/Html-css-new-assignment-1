@@ -1,56 +1,53 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container {
 width: 100%;
 height: 100%;
 }
-body{
+.content {
+    text-align: center;
+    width: 90%;
     background-color: #f2f2f2;
+    height: 300px;
+    margin: 10px 20px;
+    border: 1px solid black;
 }
-.main-box{
-    border: 2px solid black;
-    padding-bottom: 500px;
-    /* margin-bottom: 10px; */
+.left-inline, .right-inline {
+    display: inline-block;
+    width: 40%;
 }
-h1{
-    text-align: left ;
-    padding-left: 10%;
-    padding-top: 10%;
+.left-inline {
+    vertical-align: top;
 }
-p{
-    text-align: left ;
-    padding-left: 10%;
-    
-}
-button{
-    text-align: left ;
-    margin-left: 150px;
-    
+.right-inline{
+    height: 40%;
 }
 #render-wiki{
-    float: right;
-    width: 700px;
-    height: 350px;
+    height: 270px;
+    width: 100%;
+    margin-top: 15px;
     border: 1px solid black;
-    margin-right: 250px;
-    margin-bottom: 20px;
-    margin-top: 30px;
 }
-.second-box{
-    border: 2px solid black;
-    padding-bottom: 800px;
-    margin-top: 10px;
+.bttn{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 20px;
+    width: 150px;
+    padding: 15px;
 }
-.second-box h1{
-    text-align: center;
-  
+.block{
+    display: block;
+    width: 100%;
 }
-.second-box p{
-    text-align: center;
+.second-block{
+    height: 100px;
+}
+#render-dictionary{
+    height: 140px;
+    width: 90%;
+    margin-top: 15px;
+    border: 1px solid black;
     
-}
-.second-box button{
-    text-align: left;
-    margin-left: 790px;
 }
