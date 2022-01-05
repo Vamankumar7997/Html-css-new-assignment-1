@@ -5,3 +5,179 @@
 width: 100%;
 height: 100%;
 }
+/* body{
+    background-color: magenta;
+} */
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 10px;
+}
+header {
+    background: #92E0E5;
+    color: white;
+    height: 50px;
+    padding: 0px 25px;
+    margin-top: 15px;
+    border-bottom-width: 10px;
+    padding-bottom: 10px;
+}
+header img {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header nav {
+    float: right;
+    padding-bottom: 10px;
+    border-bottom: 5px;
+}
+nav li {
+    display: inline-block;
+    padding: 17px 10px;
+    
+}
+nav li:hover{
+    background: #3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+header .logo{
+    float: left;
+    text-indent: -9999px;
+    background: url('https://cdn.dribbble.com/users/3390157/screenshots/6315498/1_4x.png?') no-repeat;
+    height: 45px;
+    width: 55px;
+    margin-top: 8px;
+}
+#hero {
+    background: url('https://jooinn.com/images/abstract-background-284.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+#hero img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: 5px solid #3F8DA7;
+}
+#hero h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+/* #hero img {
+    display: block;
+    margin: auto;
+    
+    border-radius: 50%;
+    border: 5px solid #3F8DA7;
+} */
+#hero a {
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#hero a:hover {
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+.three-col {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0px 10px;
+}
+.three-col img {
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+    height: 100px;
+    width: 100px;
+    margin: 15px 0px;
+}
+#hero a {
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#hero a:hover {
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+a {
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+a:hover {
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+
+.three-col p {
+    margin-bottom: 40px;
+    
+}
+footer {
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0px;
+    text-align: center;
+}
+footer ul {
+    margin: 40px 0px;
+    
+}
+footer li {
+    display: inline-block;
+    margin: 0px 25px;
+    
+    
+}
+a {
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+a:hover {
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+.btn {
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #3F8DA7;
+    color: white;
+    padding: 5px 10px;
+}
+.link {
+    color: black;
+}
+.link:hover {
+    color: #92E0E5;
+}
+
+
+
+
+
