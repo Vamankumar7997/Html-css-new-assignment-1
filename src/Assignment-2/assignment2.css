@@ -74,10 +74,12 @@ aside ul li{
 .post-img{
     width: 200px;
     height: 150px;
+    
 }
 .row .post-img{
     display: inline-block;
     margin: 15px;
+    
 }
 footer{
     margin: 10px;
